@@ -1,8 +1,14 @@
 !gradle-wrapper.jar
 
+.DS_Store
 .gradle
 .gradletasknamecache
 
 /build/
+/node_modules
+/platforms
+/plugins
 
 gradle-app.setting
+npm-debug.log
+resources/signing
