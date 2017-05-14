@@ -60,7 +60,7 @@ body {
     margin-top: 0;
 }
 .home.app {
-    margin-top: 50%;
+    margin-top: 40%;
 }
 
 /* Landscape layout (with min-width) */
@@ -187,4 +187,36 @@ h1 {
     padding: 5px;
     background: #1abc9c;
     color: white !important
+}
+
+.expired a.fruit {
+    background-color: red;
+}
+.expired a.vegetable {
+    background-color: green;
+}
+.expired a.dairy {
+    background-color: floralwhite;
+}
+.expired a.meat {
+    background-color: palevioletred;
+}
+.expired a.grain {
+    background-color: sandybrown;
+}
+
+.table tr.fruit {
+    background-color: red;
+}
+.table tr.vegetable {
+    background-color: green;
+}
+.table tr.dairy {
+    background-color: floralwhite;
+}
+.table tr.meat {
+    background-color: palevioletred;
+}
+.table tr.grain {
+    background-color: sandybrown;
 }
