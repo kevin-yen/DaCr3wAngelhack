@@ -37,7 +37,6 @@ platforms/
 plugins/
 plugins/android.json
 plugins/ios.json
-resources/
 temp/
 Thumbs.db
 tmp/
