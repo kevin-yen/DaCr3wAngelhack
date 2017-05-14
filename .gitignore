@@ -1,14 +1,45 @@
 !gradle-wrapper.jar
 
+$RECYCLE.BIN/
+
+*.log
+*.sublime-project
+*.sublime-workspace
+*.sw[mnpcod]
+*.tmp
+*.tmp.*
+*~
+
+.DS_Store
 .DS_Store
 .gradle
 .gradletasknamecache
+.idea/
+.sass-cache/
+.tmp/
+.versions/
+.vscode/
 
 /build/
 /node_modules
 /platforms
 /plugins
 
+coverage/
+dist/
 gradle-app.setting
+hooks/
+log.txt
+node_modules/
 npm-debug.log
-resources/signing
+npm-debug.log*
+platforms/
+plugins/
+plugins/android.json
+plugins/ios.json
+resources/
+temp/
+Thumbs.db
+tmp/
+UserInterfaceState.xcuserstate
+www/
