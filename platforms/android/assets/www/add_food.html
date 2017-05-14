@@ -52,7 +52,42 @@
 <body>
     <div class="app">
         <h1>Add Food</h1>
-
+        <form id="addFood">
+          <div class="form-group">
+            <label class="sr-only" for="foodBarcode">Barcode</label>
+            <input type="text" class="form-control" id="foodBarcode" placeholder="Barcode">
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="foodName">Name</label>
+            <input type="text" class="form-control" id="foodName" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="foodName">Food Group</label>
+            <select class="form-control" id="foodGroup" class="form-control">
+              <option>Fruits</option>
+              <option>Vegetables</option>
+              <option>Dairy</option>
+              <option>Meat</option>
+              <option>Fish</option>
+              <option>Grains</option>
+              <option>Other</option>
+            </select>
+          </div>
+            <div class="form-group">
+            <label class="sr-only" for="foodName">Quantity</label>
+            <input type="text" class="form-control" id="foodQuantity" placeholder="#">
+          </div>
+            <div class="form-group">
+            <label class="sr-only" for="foodName">Expiration Date</label>
+            <input type="text" class="form-control" id="foodExpiration" placeholder="Expiration Date">
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="foodPhotoUpload">Photo Upload</label>
+            <input type="file" id="foodPhotoUpload">
+            <p class="help-block">Upload a photo for your food!</p>
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
